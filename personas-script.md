@@ -45,10 +45,11 @@ The script loads in under a minute and will prompt you for data files.
 ### Step 3: Upload Your Data
 The script accepts three types of input:
 
-Required:
+#### Required:
 
 - Google Search Console CSV export: Use the last 28 days, filtered by your target country. Export query data using this regex filter to capture question-type queries: (?i)^(who|what|why|how|when|whe[...]
-Optional (but recommended for richer personas):
+- 
+**Optional:**  (but recommended for richer personas):
 
 - Survey data CSV: Newsletter surveys, customer feedback forms, onboarding questionnaires
 - Transcript files: Customer conversations, support calls, sales calls, user interviews (TXT format)
@@ -62,30 +63,30 @@ You can enter multiple names if several team members appear in transcripts, or s
 ### Step 5: Process & Download
 The script runs through approximately 10 processing steps:
 
--Data ingestion and cleaning
--Pattern extraction across sources
--Vocabulary analysis
--Job-to-be-done identification
--Constraint mapping
--Success metric synthesis
--Decision criteria extraction
--Persona clustering
--Prompt generation
--Evidence linking
+- Data ingestion and cleaning
+- Pattern extraction across sources
+- Vocabulary analysis
+- Job-to-be-done identification
+- Constraint mapping
+- Success metric synthesis
+- Decision criteria extraction
+- Persona clustering
+- Prompt generation
+- Evidence linking
 
 After processing completes (typically 2-5 minutes), you'll see a summary and download options.
 
 ### Available downloads:
 
--Persona card Markdown files (for uploading to ChatGPT/Claude/Gemini)
--Persona card JSON files (for programmatic use)
--Persona card HTML files (for viewing in browser)
--Evidence file (traces each persona field back to source data)
--Run summary (documents what the script processed)
+- Persona card Markdown files (for uploading to ChatGPT/Claude/Gemini)
+- Persona card JSON files (for programmatic use)
+- Persona card HTML files (for viewing in browser)
+- Evidence file (traces each persona field back to source data)
+- Run summary (documents what the script processed)
 ### Download options:
 
 - Type specific numbers separated by commas (e.g., "1, 3, 6")
- - Type "all" to download everything
+- Type "all" to download everything
 - Type "skip" to just view the summary in Colab
 For most use cases, download the Markdown file for your primary persona, plus the HTML files for all personas (for reference), plus the evidence file (for validation).
 
