@@ -560,3 +560,6 @@ Refresh the expansion layer whenever the anchor layer changes.
 
 That one rule will keep the hybrid system balanced.
 
+[1]: https://github.com/tencent-ailab/persona-hub "https://github.com/tencent-ailab/persona-hub"
+[2]: https://arxiv.org/html/2406.20094v1 
+
